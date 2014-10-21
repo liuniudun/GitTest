@@ -64,7 +64,7 @@ app.use('/fuck',function(req,res,next){
 
     }
 
-    console.info("fcuk");
+    console.info("fcuk you baby");
    next();
 });
 
