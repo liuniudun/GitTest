@@ -6,3 +6,6 @@ console.write(i);
  var doTest=function(){
    alert("ok");
 }
+
+var do;
+
