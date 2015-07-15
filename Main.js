@@ -20,10 +20,6 @@ app.set('photos', __dirname + '/public/images');
 var imgPath="./public/images/a.ico";
 app.use(favicon(require.resolve(imgPath)));
 var log = fs.createWriteStream('log/myapp.log', { flags: 'a' });
-app.use(logger({format:':method :url',stream:log,immediate: true}));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
-app.use(cookieParser());
 app.use(session({
     keys: ['key1', 'key2']
 }))
