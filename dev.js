@@ -1,3 +1,3 @@
 //this is the module
-var i=0;
+var i=10;
 console.write(i);
